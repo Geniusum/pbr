@@ -7,6 +7,9 @@ Doc of FigJam :
 ## Documentation  (English) :
 The PBR was made for be very minimal (only 14 instructions). It's a stack based langage who works with piles (only 3 piles). The syntax are simple but programs are headache. It's a fast interpreted language made in Python.
 
+### Run programs
+Run `python pbr.py <.pbr input file> <options : -l for logs>` on your terminal.
+
 ### Syntax
 One line, one instruction. You can write instructions in uppercase like in microcomputers or just in lowercase.
 
