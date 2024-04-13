@@ -49,8 +49,8 @@ Same for `SUB` to substract, `MUL` for multiply and `DIV` for divide.
 
 `NCASE <line>` to make the same thing than `CASE` but the condition is if they aren't equal.
 
-### End and examples
-So now than you learn how this language works, at your turn. Here are some examples :
+### End and example
+So now than you learn how this language works, at your turn. Here is a example :
 ```
 ; Code who enumerate numbers from 1 to 10
 
