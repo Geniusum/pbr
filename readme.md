@@ -25,14 +25,29 @@ There are 3 piles : the pile A and B for operations and the pile C for operation
 
 ### Piles manipulation
 `PUSH <pile> <value (only one)>` to append a value on the pile selected.
+
 `POP <pile>` to pop a value on the pile selected, just remove the last value nothing else.
+
 `MOVE <pile 1> <pile 2>` to move the last value of the pile 1 to the pile 2.
+
 `COPY <pile 1> <pile 2>` to copy the last value of the pile 1 to the pile 2.
 
 ### Calculations with piles
-`ADD` to additionate the last value of the pile A and the pile B and append the result to the pile C, the two elements from the calcul will be removed to their piles.
+`ADD` to additionate the last values of the pile A and the pile B and append the result to the pile C, the two elements from the calcul will be removed to their piles.
+
 Same for `SUB` to substract, `MUL` for multiply and `DIV` for divide.
 
 ### Console interactions
 `PRINT <pile>` to print the last value of the selected pile.
-`INPUT <pile>
+
+`INPUT <pile>` to append the user input, with the same rules than values, to the selected pile.
+
+### Lines interactions and conditions
+`JUMP <line>` to jump to the line selected in the source code.
+
+`CASE <line>` to jump to the line selected if the last values of the pile A and the pile B are equal.
+
+`NCASE <line>` to make the same thing than `CASE` but the condition is if they aren't equal.
+
+### End and examples
+So now than you learn how this language works, at your turn. Here are some examples :
