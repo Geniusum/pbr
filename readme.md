@@ -5,4 +5,7 @@ Doc of FigJam :
 (In FRENCH)
 
 ## Documentation  (English) :
-The PBR was made for be very minimal
+The PBR was made for be very minimal (only 14 instructions). It's a stack based langage who works with piles (only 3 piles). The syntax are simple but programs are headache.
+
+### Piles available
+There are 3 piles : the pile A for 
