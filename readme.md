@@ -51,3 +51,21 @@ Same for `SUB` to substract, `MUL` for multiply and `DIV` for divide.
 
 ### End and examples
 So now than you learn how this language works, at your turn. Here are some examples :
+```
+; Code who enumerate numbers from 1 to 10
+
+PUSH A 0
+PUSH B 1
+PUSH C 10
+
+; Itteration
+ADD
+POP B
+POP A
+MOVE C A
+MOVE C B
+
+; Show number and restart if it's not equal to the limit
+PRINT A
+NCASE 3
+```
